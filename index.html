@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rmanaf</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
+  <link rel="icon" href="./assets/img/profile.jpeg" type="image/png"></head>
+
+  <body>
+    <div id="loading">
+      <div id="spinner"></div>
+    </div>
+    <div id="profile">
+      <div id="profile_img" style="background: url(./assets/img/profile.jpeg) center;"></div>
+      <div id="username"><span style="display:block;">Arman Afzal</span><a href="https://github.com/Rmanaf">@Rmanaf</a></div>
+      <div id="userbio" style="display: none;">undefined</div>
+      <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-envelope"></i> &nbsp; Rman.afzal@gmail.com</span>
+                <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href=""></a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Turkey</span>
+                
+                <div class="socials">
+                <span style="display:block;"><a href="https://www.twitter.com/rmanaf90" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:block;"><a href="https://www.linkedin.com/in/rmanaf/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                
+                </div>
+                </div>
+    </div>
+    <div id="display">
+      <div id="work">
+        <h1>Work.</h1>
+        <div class="projects" id="work_section">
+                        
+                        <a href="https://github.com/Rmanaf/wp-redirection-pro" target="_blank">
+                        <section>
+                            <div class="section_title">wp-redirection-pro</div>
+                            <div class="about_section">
+                            <span style="display:block;">Redirection PRO is a plugin that enhances your WordPress website by fetching and displaying the link preview for each external link.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Rmanaf/wp-code-injection" target="_blank">
+                        <section>
+                            <div class="section_title">wp-code-injection</div>
+                            <div class="about_section">
+                            <span style="display:block;">This plugin allows you to inject code snippets into the pages.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Rmanaf/json-form" target="_blank">
+                        <section>
+                            <div class="section_title">json-form</div>
+                            <div class="about_section">
+                            <span style="display:block;">JSON Form Generator</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; TypeScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Rmanaf/wp-heimdall" target="_blank">
+                        <section>
+                            <div class="section_title">wp-heimdall</div>
+                            <div class="about_section">
+                            <span style="display:block;">This plugin is for tracking your client activities.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/Rmanaf/candy-btn" target="_blank">
+                        <section>
+                            <div class="section_title">candy-btn</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        </div>
+      </div>
+      <div id="forks" style="display:none;">
+        <h1>Forks.</h1>
+        <div class="projects" id="forks_section"></div>
+      </div>
+      <div id="blog_section">
+        <h1>Blog.</h1>
+        <div id="blogs"></div>
+      </div>
+      <div id="footer">
+        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      setTimeout(function() {
+        document.getElementById("loading").classList.add("animated");
+        document.getElementById("loading").classList.add("fadeOut");
+        setTimeout(function() {
+          document.getElementById("loading").classList.remove("animated");
+          document.getElementById("loading").classList.remove("fadeOut");
+          document.getElementById("loading").style.display = "none";
+        }, 800);
+      }, 1500);
+      $.getJSON("blog.json", function(blog) {
+        blog = blog || [];
+        if (blog.length == 0) {
+          return (document.getElementById("blog_section").style.display =
+            "none");
+        }
+        for (var i = 0; i < blog.length; i++) {
+          $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+        }
+      }).fail(function() {
+        return (document.getElementById("blog_section").style.display = "none");
+      });
+    </script>
+
+    <script>
+      const magicProjectsGrid = new MagicGrid({
+        container: "#work_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      const magicForksGrid = new MagicGrid({
+        container: "#forks_section",
+        animate: false,
+        gutter: 30, // default gutter size
+        static: true,
+        useMin: false,
+        maxColumns: 2,
+        useTransform: true
+      });
+
+      $("document").ready(() => {
+        magicProjectsGrid.listen();
+        magicForksGrid.listen();
+      });
+    </script>
+  
+
+</body></html>
